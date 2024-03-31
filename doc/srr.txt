@@ -1,29 +1,29 @@
 ==============================================================================
 ------------------------------------------------------------------------------
-                                                       *YourPluginName.toggle()*
-                           `YourPluginName.toggle`()
+                                                                  *Srr.toggle()*
+                                 `Srr.toggle`()
 Toggle the plugin by calling the `enable`/`disable` methods respectively.
 
 ------------------------------------------------------------------------------
-                                                       *YourPluginName.enable()*
-                           `YourPluginName.enable`()
+                                                                  *Srr.enable()*
+                                 `Srr.enable`()
 Initializes the plugin, sets event listeners and internal state.
 
 ------------------------------------------------------------------------------
-                                                      *YourPluginName.disable()*
-                           `YourPluginName.disable`()
+                                                                 *Srr.disable()*
+                                `Srr.disable`()
 Disables the plugin, clear highlight groups and autocmds, closes side buffers and resets the internal state.
 
 
 ==============================================================================
 ------------------------------------------------------------------------------
-                                                        *YourPluginName.options*
-                            `YourPluginName.options`
+                                                                   *Srr.options*
+                                 `Srr.options`
 Your plugin configuration with its default values.
 
 Default values:
 >
-  YourPluginName.options = {
+  Srr.options = {
       -- Prints useful logs about what event are triggered, and reasons actions are executed.
       debug = false,
   }
@@ -31,15 +31,15 @@ Default values:
 <
 
 ------------------------------------------------------------------------------
-                                                        *YourPluginName.setup()*
-                       `YourPluginName.setup`({options})
-Define your your-plugin-name setup.
+                                                                   *Srr.setup()*
+                             `Srr.setup`({options})
+Define your srr setup.
 
 Parameters ~
-{options} `(table)` Module config table. See |YourPluginName.options|.
+{options} `(table)` Module config table. See |Srr.options|.
 
 Usage ~
-`require("your-plugin-name").setup()` (add `{}` with your |YourPluginName.options| table)
+`require("srr").setup()` (add `{}` with your |Srr.options| table)
 
 
  vim:tw=78:ts=8:noet:ft=help:norl:

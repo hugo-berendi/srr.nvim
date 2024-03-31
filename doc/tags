@@ -1,5 +1,5 @@
-YourPluginName.disable()	neovim-plugin-boilerplate.txt	/*YourPluginName.disable()*
-YourPluginName.enable()	neovim-plugin-boilerplate.txt	/*YourPluginName.enable()*
-YourPluginName.options	neovim-plugin-boilerplate.txt	/*YourPluginName.options*
-YourPluginName.setup()	neovim-plugin-boilerplate.txt	/*YourPluginName.setup()*
-YourPluginName.toggle()	neovim-plugin-boilerplate.txt	/*YourPluginName.toggle()*
+Srr.disable()	srr.txt	/*Srr.disable()*
+Srr.enable()	srr.txt	/*Srr.enable()*
+Srr.options	srr.txt	/*Srr.options*
+Srr.setup()	srr.txt	/*Srr.setup()*
+Srr.toggle()	srr.txt	/*Srr.toggle()*
